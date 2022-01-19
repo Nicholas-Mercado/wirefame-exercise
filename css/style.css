@@ -1,0 +1,67 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: darkgray;
+  height: 100px;
+}
+
+nav{
+  width: 960px;
+  margin: auto;
+}
+
+header img{
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+header ul li{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main ul li{
+  float: left;
+  margin: 30px 30px 30px 0px;
+}
+
+main ul li:last-child{
+margin-right: 0px;
+}
+
+
+section ul li a{
+  width: 480px;
+}
+
+
+section div p{
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+  text-align: left;
+  margin-right: 0%;
+}
+
+footer{
+  /* background-color: darkgray; */
+  height: 120px;
+}
+
+h2 {
+  font-size: 1vw;
+}
